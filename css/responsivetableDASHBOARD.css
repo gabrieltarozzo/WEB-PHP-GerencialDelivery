@@ -1,0 +1,173 @@
+/* Table Base  EXEMPLO DE COMO DEIXAR RESPONSIVO*/
+
+.topmarginDASHBOARD {
+    margin-top: 7%;
+}
+
+  table {
+
+
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    font-family: arial;
+  }
+
+  .table {
+    margin-left: 37.5%;
+    border-bottom: #999999 solid 1px;
+     width:25% !important;
+    margin-bottom: 20px;
+  }
+
+  .table th{
+
+    border-right: #999999 solid 1px;
+
+    font-size: 12px;
+    padding: 8px;
+    line-height: 20px;
+
+    vertical-align: middle;
+
+
+
+  }
+
+  .table td {
+
+    border-right: #999999 solid 1px;
+    font-size: 12px;
+        align:center !important;
+    padding: 8px;
+    line-height: 20px;
+
+    vertical-align: middle;
+
+
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  .table td:last-child {
+     border-right: 0;
+  }
+
+  .table thead th {
+    font-weight: normal;
+    background-color: #005dab;
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .table tbody > tr:nth-child(odd) > td,
+  .table tbody > tr:nth-child(odd) > th {
+    background-color: #f8f8f8;
+  }
+
+
+/* Small Sizes era 767 */
+@media (min-width: 569px) and 
+(max-width: 767px) { 
+  
+  /* Responsive Table */
+  .table-responsive {
+    display: block;
+    position: relative;
+
+  }
+  .topmarginDASHBOARD {
+    margin-top: 30%;
+}
+  caption{
+    width:350%;
+  }
+  .table {
+
+    margin-left: 1%;
+    border-bottom: #999999 solid 1px;
+     width:80% !important;
+    margin-bottom: 20px;
+  }
+  .table-responsive thead,
+  .table-responsive tbody,
+  .table-responsive th,
+  .table-responsive td,
+  .table-responsive tr {
+    display: block;
+  }
+  .table-responsive td,
+  .table-responsive th {
+        width:100%;
+    height: 50px;
+  }
+
+  .table-responsive thead {
+    float: left;
+  }
+
+  .table-responsive tbody {
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  .table-responsive tbody tr {
+    display: inline-block;
+  }
+
+  .table td:last-child {
+     border-right: #999999 solid 1px;
+  }
+}
+
+@media (min-width: 0px) and
+(max-width: 0px) {
+
+  /* Responsive Table */
+  .table-responsive {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+
+  .table-responsive thead,
+  .table-responsive tbody,
+  .table-responsive th,
+  .table-responsive td,
+  .table-responsive tr {
+    display: block;
+  }
+  .table-responsive td,
+  .table-responsive th {
+    height: 99px;
+  }
+
+  .table-responsive thead {
+    float: left;
+  }
+
+  .table-responsive tbody {
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  .table-responsive tbody tr {
+    display: inline-block;
+  }
+
+  
+  .table td:last-child {
+     border-right: #999999 solid 1px;
+  }
+
+
+
+}

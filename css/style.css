@@ -1,0 +1,62 @@
+
+.background {
+
+             background: url(../imagens/download.jpg); /*caso a sua imagem de fundo se encontre no mesmo diretorio use apenas background-image:url(backg.jpg) */
+              background-size: cover;
+              background-repeat: no-repeat;
+             }
+ .background2 {
+
+ background: url(../imagens/download1.jpg); /*caso a sua imagem de fundo se encontre no mesmo diretorio use apenas background-image:url(backg.jpg) */
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+
+  .background3 {
+
+ background: url(../imagens/download2.jpg); /*caso a sua imagem de fundo se encontre no mesmo diretorio use apenas background-image:url(backg.jpg) */
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+
+.button1 {
+   font-family: arial;
+    width: 100%;
+    padding: 5%;
+    background-color: #FFE4B5;
+    font-size: 22px;
+    color: black;
+    border-color: black;
+    border: 2px solid; /* Green */
+    border-radius: 15%;
+}
+
+.button1:hover  {
+    background-color:white;
+
+}
+
+.titulo {
+  margin-bottom: 45px;
+  font-family: arial;
+  text-align: center;
+  font-weight: bold;
+  color: #FFDEAD;
+  font-size: 33px;
+}
+
+.titulo:hover {
+        color:white;
+}
+
+
+
+/* de imagens 
+
+/* edit do bootstrap botão editar */
+
+
+
+/* fim edit */
+
+

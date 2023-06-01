@@ -1,0 +1,215 @@
+
+
+.RESPONSIVIDADE {
+  margin-top:5%;
+}
+  .topmargin {
+    margin-top: 15%;
+}
+.meld{
+  color:DarkRed; font-size:20px;overflow-wrap: break-word;
+}
+
+.melde{
+  color:Black; font-size:21px;overflow-wrap: break-word;
+}
+
+.meldin{
+  color:Black; font-size:18px;overflow-wrap: break-word;
+}
+
+.meldT{
+  color:DarkRed; font-size:27px;overflow-wrap: break-word;
+}
+
+ .printablen {
+    display: none;
+}
+/* print styles*/
+@media print {
+  modal-body {    align:center;
+              font-size: 99px;   }
+    .printablen {
+        display: block;
+    }
+    .screen {
+        display: none;
+    }
+}
+
+ .printable {
+    display: none;
+}
+/* print styles*/
+@media print {
+  modal-body {    align:center;
+              font-size: 99px;   }
+    .printable {
+        display: block;
+    }
+    .screen {
+        display: none;
+    }
+}
+
+
+.din {
+  height:150px;
+  overflow-y:auto;
+}
+
+.eitamanim{
+  display: none;
+}
+     .escon {
+    display: none;
+   }
+
+
+/* print styles*/
+
+
+
+/* cores do fufndo da tabela pedidos */
+.greeen {
+   /* background-color: #00FF7F !important; */
+    color: #698B22;
+}
+.greeen:hover{
+   /* background-color: #90EE90 !important; */
+   color: green !important;
+}
+.emEntrega {
+   /* background-color: #F0E68C !important;
+    color: black; */
+     color:#20B2AA ;
+}
+.emEntrega:hover {
+   /* background-color: #F0E68C !important;
+    color: black; */
+   
+    color:#00CED1 ;
+}
+.yelloww {
+   /* background-color: #F0E68C !important;
+    color: black; */
+    color:#B8860B ;
+}
+
+/*esconde botão*/
+.btnDisplay0{
+  display:none;
+}
+/* regressive contagem */
+.btne2 {
+  color: #31302B;
+    background: #FFF;
+    padding: 12px 17px;
+    font-family: 'OpenSansBold', sans-serif;
+    border: 1px solid #31302B;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #31302B;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.btne3 {
+  color: #31302B;
+    background: #FFF;
+    padding: 12px 17px;
+    font-family: 'OpenSansBold', sans-serif;
+    border: 1px solid #31302B;
+    font-size: 11px;
+    font-weight: bold;
+
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #31302B;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.hover-style-2:hover
+{
+  
+    box-shadow: inset 0 60px 0 0    #E6E6FA;
+    color: black;
+   
+  
+}
+.diveATT{width:10%;text-align:center; /* W3C */}
+.bodye{background:#272727;}
+/*.dive{width:100px;height:100px;line-height:100px;position:absolute;margin:-23px 0 0 -58px;top:50%;left:50%;text-align:center;border-radius:50%;border:5px solid #202020;background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */}
+.diveQ {}
+.be,.spane{font:25px bold 'digital_dreamregular';color:#06B052;text-shadow:0 0 5px #606060;}
+
+.gonden {
+   color: #CD6839;
+}
+
+.gonden:hover {
+  color: #8B4726 !important;
+}
+.yelloww:hover {
+   /* background-color: #EEE8AA !important; */
+   color: #DAA520   !important;
+   
+}
+
+.bluee {
+   /* background-color: #87CEFA !important; */
+    color: #4F94CD;
+}
+
+.bluee:hover {
+    /* background-color: #ADD8E6 !important; */
+    color:#4876FF !important;
+}
+
+.reed {
+   /* background-color: #FF7F50 !important; */
+    color: #8B0000;
+}
+
+.reed:hover {
+   /* background-color: #FFA07A !important; */
+   color:red;
+}
+
+/*   ------------------------------------- */
+
+
+
+/* fim tentativa menu fixo */
+
+
+.produtosmargem {
+ height: 210px !important;
+    width: 100% !important; 
+}
+
+
+/* fundo das linhas produto */
+.desativado {
+    background-color: #A9A9A9 !important;
+}
+.faltaestoque {
+    background-color: #FFDEAD !important;
+}
+
+
+
+
+
+

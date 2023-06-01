@@ -1,0 +1,135 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-bottom:20px;
+  margin-top: 20px;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;  
+  margin-bottom:20px;
+  margin-top: 20px;
+}
+/* botão login */
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+.btn {
+  color: #31302B;
+    background: #FFF;
+    padding: 12px 17px;
+
+    font-family: 'OpenSansBold', sans-serif;
+    border: 3px solid #31302B;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #31302B;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.hover-style-1:hover
+{
+
+    box-shadow: inset 10em 0 0 0 black;
+    color: #fff;
+    border: 3px solid #fff;
+  
+}
+
+.hover-style-2:hover
+{
+
+  
+    box-shadow: inset 0 60px 0 0  #FFEFD5;
+    color: black;
+    border: 3px solid   #FFEFD5;
+  
+}
+
+ /*  box-shadow: inset 0 60px 0 0 #d63b5a;
+ //   color: #fff;
+  //  border: 3px solid #d63b5a; */
+
+.hover-style-3:hover
+{
+
+    box-shadow: inset -8em 0 0 0 #d63b5a;
+    color: #fff;
+    border: 3px solid #d63b5a;
+  
+}
+
+.hover-style-4:hover
+{
+  
+  
+    box-shadow: inset 0 -60px 0 0 #d63b5a;
+    color: #fff;
+    border: 3px solid #d63b5a;
+  
+}
+
+footer{
+  background: #d63b5a;
+  margin: 15% 0 0 0;
+  text-align: center;
+  color: white;
+  height: 110px;
+  padding: 2em 0 0 0;
+  font-size: 1.2em;
+  
+  .fab{
+    font-size: 1.2em;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+}

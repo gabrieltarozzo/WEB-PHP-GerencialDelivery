@@ -1,0 +1,36 @@
+
+@media (min-width: 400px) and 
+(max-width: 600px) { 
+.h4responsivo {
+	display: none;
+}
+li {
+	width:5%;
+	height:1%;
+}
+ul{
+	width:2%;
+	height:1%;
+}
+a{
+	width:2%;
+	height:5%;
+}
+
+}
+
+li {
+	margin:0px;
+	width:5%;
+	height:1%;
+}
+ul{
+	margin:0px;
+	width:75%;
+	height:5%;
+}
+
+
+.h4responsivo {
+	display: none;
+}

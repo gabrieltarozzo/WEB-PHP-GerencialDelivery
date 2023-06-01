@@ -1,0 +1,388 @@
+
+.navbar-inner{
+    /*height: 90px*/
+    min-height: 60px
+    }
+  
+.navbar .brand{
+    padding: 0 10px;
+}
+.navbar .nav > li > a {
+    padding: 20px 15px;
+    /*padding: 35px 15px;*/
+}
+.navbar .btn-navbar {
+    /*margin-right: 0px;*/
+    margin-top:15px;
+}
+/*
+
+Botão checkbox animado
+
+
+*/
+.input[type=checkbox] + label {
+  display: block;
+  margin: 0.9em;
+  cursor: pointer;
+  padding: 1em;
+}
+
+.input[type=checkbox] {
+  display: none;
+}
+
+.input[type=checkbox] + label:before {
+  content: "\2714";
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 1.4em;
+  height: 1.4em;
+  font-size:20px;
+  padding-left: 0.2em;
+  padding-bottom: 0.3em;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .2s;
+}
+
+.input[type=checkbox] + label:active:before {
+  transform: scale(0);
+}
+
+.input[type=checkbox]:checked + label:before {
+  background-color: MediumSeaGreen;
+  border-color: MediumSeaGreen;
+  font-size:20px;
+  color: #fff;
+}
+
+.input[type=checkbox]:disabled + label:before {
+  transform: scale(3);
+  border-color: #aaa;
+}
+
+.input[type=checkbox]:checked:disabled + label:before {
+  transform: scale(3);
+  background-color: #bfb;
+  border-color: #bfb;
+}
+
+/* botão checkbox animado */
+.teste {
+  width:100%;
+}
+
+.btncad{
+  margin-right: 50px;
+}
+   .nomeAdmin {
+
+   }
+
+.padrao {
+  height:230px; /* esse estilo é a altura que fica o fundo branco da navbar */
+}
+  .topmargin {
+    margin-top: 200px; /* este estilo é a altura das categorias listadas */
+}
+
+/* configuração heade */
+
+/*   .padrao {
+    width:1900 !important;
+    height: 229px;
+   }
+
+   .basic {
+    width:1900 !important;
+   }*/
+   /* fim header */
+
+      .doID{
+        width:21%;
+      }
+
+   /* tentativa menu fixo */
+
+/* cores do fufndo da tabela pedidos */
+.greeen {
+    background-color: #00FF7F !important;
+    color: black !important;
+}
+.greeen:hover{
+    background-color: #90EE90 !important;
+}
+
+.yelloww {
+    background-color: #F0E68C !important;
+    color: black;
+}
+
+.yelloww:hover {
+    background-color: #EEE8AA !important;
+}
+
+.bluee {
+    background-color: #87CEFA !important;
+    color: black;
+}
+
+.bluee:hover {
+    background-color: #ADD8E6 !important;
+}
+
+.reed {
+    background-color: #FF7F50 !important;
+    color: black;
+}
+
+.reed:hover {
+    background-color: #FFA07A !important;
+}
+
+/*   ------------------------------------- */
+
+
+
+.topmarginPEDIDOS {
+    margin-top: 12%;
+}
+
+
+/* fim tentativa menu fixo */
+
+
+.produtosmargem {
+ height: 270px !important;
+    width: 100% !important;
+}
+
+
+/* fundo das linhas produto */
+.desativado {
+    background-color: #A9A9A9 !important;
+}
+.faltaestoque {
+    background-color: #FFDEAD !important;
+}
+
+
+
+ nav {
+   /*A9A9A9
+     position: fixed !important;
+       right: 0 !important;
+       /* acima é o que ta sendo adicionado */
+    z-index:10 !important;
+    overflow: hidden;
+    position: fixed !important; /* Set the navbar to fixed position */
+    top: 0 !important; /* Position the navbar at the top of the page */
+    width: 100% !important;  /* Full width */
+  /* Full width */
+     background-color:white !important;
+     border-radius: 6px !important;
+     -moz-border-radius: 6px !important;
+        }
+
+.nav a{
+  font-family:"Times New Roman" !important;
+    color: 000 !important;
+    font-size: 1.5em !important;
+    }
+.nav li{
+    padding-right:5px;
+   }
+
+
+     .lol1{
+
+    margin-top: 15px !important;
+
+   }
+
+
+/*    @media (min-width: 1200px) and
+(max-width: 1700px) {*/
+
+/*    h2, p, b, h3, h4, h1, {
+    font-size: 10px !important;
+}
+   a, li{
+    font-size: 12px !important;
+   }
+   */
+
+/*   .padrao {
+    transform-origin: 0% 0%;
+  transform: scaleX(0.86) scaleY(1.0);
+
+  }
+   .basic{
+        transform-origin: 0% 0%;
+  transform: scaleX(0.86) scaleY(1.0);
+   }*/
+
+
+ @media (min-width: 1556px) and
+(max-width: 1770px) {
+  .nav a{
+  font-family:"Times New Roman" !important;
+    color: 000 !important;
+    font-size: 15px !important;
+    }
+
+   img {
+    text-align:center;
+   }
+
+ }
+
+  @media (min-width: 1350px) and
+(max-width: 1556px) {
+  .nav a{
+  font-family:"Times New Roman" !important;
+    color: 000 !important;
+    font-size: 11px !important;
+    }
+
+          .aa{
+        font-size:13px;
+      }
+
+      .doID{
+        width:17%;
+      }
+
+   img {
+    text-align:center;
+   }
+
+ }
+
+   @media (min-width: 1000px) and
+(max-width: 1349px) {
+  .nav a{
+  font-family:"Times New Roman" !important;
+    color: 000 !important;
+    font-size: 11px !important;
+    }
+
+          .aa{
+        font-size:10px;
+      }
+      .doID{
+        width:15%;
+      }
+
+   img {
+    text-align:center;
+   }
+
+ }
+
+
+
+   @media (min-width: 900px) and
+(max-width: 1310px) {
+  .nav a{
+  font-family:"Times New Roman" !important;
+    color: 000 !important;
+    font-size: 10px !important;
+    }
+    .nomeAdmin {
+      display: none;
+    }
+
+          .aa{
+        font-size:10px;
+      }
+      .doID{
+        width:10%;
+      }
+
+      th{
+        0px;
+      }
+
+   .lol1 {
+    display:none;
+    width: 10px;
+   }
+
+   img{
+
+   }
+
+
+ }
+
+
+   @media (min-width: 0px) and
+(max-width: 955px) {
+  .nav a{
+  font-family:"Times New Roman" !important;
+    color: 000 !important;
+    font-size: 10px !important;
+    }
+    .nomeAdmin {
+      display: none;
+    }
+
+          .aa{
+        font-size:10px;
+      }
+      .doID{
+        width:1%;
+      }
+
+      th{
+        0px;
+      }
+
+   .lol1 {
+    display:none;
+    width: 10px;
+   }
+
+   img{
+
+   }
+    nav .navbar-right{
+      float: left !important;
+      overflow-y: scroll !important;
+    }
+    table {
+      margin-top: 30px !important;
+    }
+   nav{
+    
+    height: 100%;
+    width: 1200px !important;
+    margin: 0px !important;
+    top: 0 !important; /* Position the navbar at the top of the page */
+   }
+.teste1 {
+  width: 100%;
+}
+   .topmargin{
+    margin-top: 250px;
+   }
+   .padrao {
+  height:250px; /* esse estilo é a altura que fica o fundo branco da navbar */
+}
+
+    .magic{
+    overflow-y: scroll !important;
+    width: 1200px !important;
+    margin: 0px !important;
+   }
+
+
+ }
+
+
+
+ 

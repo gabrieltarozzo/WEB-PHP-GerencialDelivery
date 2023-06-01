@@ -1,0 +1,81 @@
+ #content{
+    width: 50%;
+
+    border: 1px solid #cbcbcb;
+   }
+   .h233{
+	color: #8B0000;
+	text-align: center;
+	font-size: 19px;
+	white-space: normal;
+}
+    .back{
+  background: rgb(188, 32, 38);
+  background: -webkit-linear-gradient(bottom, rgb(188, 32, 38), rgb(188, 32, 38));
+  background: -o-linear-gradient(bottom, rgb(188, 32, 38), #8B0000);
+  background: linear-gradient(to bottom, rgb(188, 32, 38), #8B0000); /* era ff00000 e ff4500 */
+}
+.headermodal{
+  background-color: #EEE8AA;
+}
+.card{
+	border-color: #671717;
+	background: #EEE8AA;
+	background: -webkit-linear-gradient(bottom, #FFE4B5, #FFE4B5);
+	background: -o-linear-gradient(bottom, #FFE4B5, #FFE4B5);
+	background: linear-gradient(to bottom, #FFE4B5, #FFE4B5); /* era ff00000 e ff4500 */
+	box-shadow: 0 14px 20px rgba(108, 18, 18),  5px 5px 10px rgba(68, 17, 17); 
+	margin: 40px 10px;
+}
+   #img_div{
+    width: 100%;
+    padding: 5px;
+
+    border: 1px solid #cbcbcb;
+   }
+   #img_div:after{
+    content: "";
+    display: block;
+    clear: both;
+   }
+
+        .testeimg{
+
+
+    width: 500px;
+    height: 320px;
+   }
+
+     .imgt{
+
+
+    width: 300px;
+    height: 140px;
+
+
+}
+     .imgttt{
+    width: 100%;
+    height: 120px;
+
+}
+.info-card-home h2{
+	font-weight: 700;
+	font-size: 110%;
+	text-align: center;
+	color: white;
+}
+
+.modal-ke {
+  width: 400px;
+  margin: auto;
+}
+/* efeito preto e branco na foto */
+     .imgtt{
+
+
+    width: 300px;
+    height: 140px;
+    z-index:1;
+    filter: grayscale(100%);
+   }

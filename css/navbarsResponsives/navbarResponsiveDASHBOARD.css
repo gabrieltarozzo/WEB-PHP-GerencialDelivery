@@ -1,0 +1,345 @@
+
+.navbar-inner{
+    /*height: 90px*/
+    min-height: 60px
+    }
+	
+.navbar .brand{
+    padding: 0 10px;
+}
+.navbar .nav > li > a {
+    padding: 20px 15px;
+    /*padding: 35px 15px;*/
+}
+.navbar .btn-navbar {
+    /*margin-right: 0px;*/
+    margin-top:15px;
+}
+
+   .nomeAdmin {
+
+
+   }
+@media (max-width:50px) {
+    .brand img{
+        margin-bottom: 5px;
+
+    }
+    .navbar .btn-navbar{
+        /*margin-right: -15px;*/
+    }
+    .navbar .nav > li > a {
+        padding: 10px 15px;
+    }
+}
+
+   /* tentativa menu fixo */
+.newsletter{
+    display: none;
+    top:0%;
+    position:fixed; 
+    width: 100%;
+    height:25%; 
+    background:#FFF;
+}
+.newsletter2{
+    display: none;
+    top:0%;
+    position:fixed; 
+    width: 100%;
+    height:28%; 
+    background:#FFF;
+}
+/* cores do fufndo da tabela pedidos */
+.greeen {
+    background-color: #00FF7F !important; 
+    color: black !important;
+}
+.greeen:hover{
+    background-color: #90EE90 !important;
+}
+
+.yelloww {
+    background-color: #F0E68C !important;
+    color: black;
+}
+
+.yelloww:hover {
+    background-color: #EEE8AA !important;
+}
+
+.bluee {
+    background-color: #87CEFA !important;
+    color: black;
+}
+
+.bluee:hover {
+    background-color: #ADD8E6 !important;
+}
+
+.reed {
+    background-color: #FF7F50 !important;
+    color: black;
+}
+
+.reed:hover {
+    background-color: #FFA07A !important;
+}
+
+/*   ------------------------------------- */
+
+  .topmargin {
+    margin-top: 14%;
+}
+.topmarginPEDIDOS {
+    margin-top: 12%;
+}
+
+
+/* fim tentativa menu fixo */
+
+
+.produtosmargem {
+ height: 270px !important;
+    width: 100% !important; 
+}
+
+
+/* fundo das linhas produto */
+.desativado {
+    background-color: #A9A9A9 !important;
+}
+.faltaestoque {
+    background-color: #FFDEAD !important;
+}
+
+
+
+ nav {
+	 /*A9A9A9
+     position: fixed !important;
+       right: 0 !important;
+       /* acima é o que ta sendo adicionado */
+       z-index:10 !important;
+           overflow: hidden;
+               position: fixed !important; /* Set the navbar to fixed position */
+    top: 0 !important; /* Position the navbar at the top of the page */
+    width: 100% !important;  /* Full width */
+  /* Full width */
+ 
+
+
+
+        background-color:white !important;
+     border-radius: 6px !important;
+     -moz-border-radius: 6px !important;
+        }
+
+.nav a{
+	font-family:"Times New Roman" !important;
+    color: 000 !important;
+    font-size: 1.5em !important;
+    }
+.nav li{
+    padding-right:5px;
+   }
+
+
+     .lol1{
+
+    margin-top: 15px !important;
+
+   }
+
+   @media (min-width: 0px) and 
+(max-width: 767px) { 
+  .nav a{
+  font-family:"Times New Roman" !important;
+    color: 000 !important;
+    font-size: 15px !important;
+
+    
+    }
+
+     .lol1{
+      width:100%;
+      align:center;
+    margin-top: 10px !important;
+
+   }
+.topmarginDASHBOARD{
+  margin:0px;
+}
+   .nomeAdmin {
+    display: none;
+/*    margin-top: 15px !important;
+    overflow-wrap: break-word;
+    margin: 0px;
+
+    overflow-y: scroll;
+    font-size:15px !important;*/
+   }
+  
+   img {
+    text-align:center;
+   }
+
+   nav {
+            overflow-y: scroll !important;
+        height: 100%;
+    width: 120px !important;
+    margin: 0px !important;
+    top: 0 !important; /* Position the navbar at the top of the page */
+
+   }
+   ul  {
+
+
+   }
+
+ }
+
+
+ /* MAIS UMA CONFIGURAÇÃO .... */
+
+ @media (min-width: 768px) and 
+(max-width: 1173px) { 
+  .nav a{
+  font-family:"Times New Roman" !important;
+    color: 000 !important;
+    font-size: 15px !important;
+
+    
+    }
+
+     .lol1{
+      width:100%;
+      align:center;
+    margin-top: 15px !important;
+
+   }
+.topmarginDASHBOARD{
+  margin:0px;
+
+}
+   .nomeAdmin {
+    display: none;
+
+   }
+ 
+   img {
+    text-align:center;
+   }
+      nav {
+            overflow-y: scroll !important;
+        height: 100%;
+    width: 120px !important;
+    margin: 0px !important;
+    top: 0 !important; /* Position the navbar at the top of the page */
+
+   }
+
+
+
+ }
+
+ /* MIAS UMA ..... */
+
+  @media (min-width: 1174px) and 
+(max-width: 1269px) { 
+  .nav a{
+  font-family:"Times New Roman" !important;
+    color: 000 !important;
+    font-size: 12px !important;
+
+    
+    }
+
+     .lol1{
+      width:100%;
+      align:center;
+    margin-top: 15px !important;
+
+   }
+.topmarginDASHBOARD{
+  margin:0px;
+  margin-top: 99px;
+
+}
+   .nomeAdmin {
+    display: none;
+
+   }
+  
+   img {
+    text-align:center;
+   }
+
+
+
+ }
+/* mais um */
+   @media (min-width: 1451px) and 
+(max-width: 1750px) { 
+  .nav a{
+  font-family:"Times New Roman" !important;
+    color: 000 !important;
+    font-size: 19px !important;
+
+    
+    }
+
+     .lol1{
+      width:100%;
+      align:center;
+    margin-top: 15px !important;
+
+   }
+.topmarginDASHBOARD{
+  margin:0px;
+  margin-top: 99px;
+
+}
+   .nomeAdmin {
+    display: none;
+
+   }
+
+   img {
+    text-align:center;
+   }
+
+ }
+    @media (min-width: 1270px) and 
+(max-width: 1450px) { 
+  .nav a{
+  font-family:"Times New Roman" !important;
+    color: 000 !important;
+    font-size: 15px !important;
+
+    
+    }
+
+     .lol1{
+      width:100%;
+      align:center;
+    margin-top: 15px !important;
+
+   }
+.topmarginDASHBOARD{
+  margin:0px;
+  margin-top: 99px;
+
+}
+   .nomeAdmin {
+    display: none;
+
+   }
+
+
+
+   img {
+    text-align:center;
+   }
+
+ }

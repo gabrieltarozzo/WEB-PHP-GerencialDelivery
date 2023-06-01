@@ -1,0 +1,37 @@
+ nav {
+
+        background-color:white !important;
+
+        }
+
+.nav a{
+	font-family:"Times New Roman" !important;
+    color: 000 !important;
+
+    }
+
+    .imgresponsive {
+  height:20px;
+
+}
+.logoresponsive {
+  height:50px;
+  width:50px;
+}
+.logoresponsive2 {
+  height:50px;
+  width:50px;
+}
+  .txtresponsive {
+    font-size:18px;
+  }
+@media (min-width: 768px) and 
+(max-width: 1100px) { 
+  .txtresponsive {
+    font-size:13px;
+  }
+  .imgresponsive {
+    display:none;
+  }
+
+  }

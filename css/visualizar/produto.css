@@ -1,0 +1,51 @@
+#content{
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #cbcbcb;
+   }
+   .headermodal{
+  background-color: #EEE8AA;
+}
+.modal-se {
+  width: 360px;
+  margin: auto;
+}
+ .back{
+  background: rgb(188, 32, 38);
+  background: -webkit-linear-gradient(bottom, rgb(188, 32, 38), rgb(188, 32, 38));
+  background: -o-linear-gradient(bottom, rgb(188, 32, 38), #8B0000);
+  background: linear-gradient(to bottom, rgb(188, 32, 38), #8B0000); /* era ff00000 e ff4500 */
+}
+.card{
+	border-color: #671717;
+	background: #EEE8AA;
+	background: -webkit-linear-gradient(bottom, #FFE4B5, #FFE4B5);
+	background: -o-linear-gradient(bottom, #FFE4B5, #FFE4B5);
+	background: linear-gradient(to bottom, #FFE4B5, #FFE4B5); /* era ff00000 e ff4500 */
+	box-shadow: 0 14px 20px rgba(108, 18, 18),  5px 5px 10px rgba(68, 17, 17); 
+	margin: 40px 10px;
+}
+
+   #img_div{
+    width: 100%;
+    padding: 5px;
+    margin: 15px auto;
+    border: 1px solid #cbcbcb;
+   }
+   #img_div:after{
+    content: "";
+    display: block;
+    clear: both;
+   }
+   .th4{
+	color: rgb(187, 97, 12);
+	text-align: center;
+	font-size: 19px;
+	white-space: normal;
+}
+     .imgt{
+
+   
+    width: 100%;
+    height: 220px;
+   }
